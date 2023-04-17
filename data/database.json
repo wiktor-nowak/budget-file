@@ -1,0 +1,25 @@
+{
+    "expenses": [
+        {
+            "id": 1,
+            "person": "Wiktor",
+            "account": "AliorBank",
+            "description": "The last money I have I devoted to face 45kg box of bananas from Egypt...",
+            "value": 235.85
+        },
+        {
+            "id": 2,
+            "person": "Wiktor",
+            "account": "AliorBank",
+            "description": "What for?...",
+            "value": 11.34
+        },
+        {
+            "id": 3,
+            "person": "Wiktor",
+            "account": "AliorBank",
+            "description": "",
+            "value": 100
+        }
+    ]
+}
