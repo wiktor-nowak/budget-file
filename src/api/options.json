@@ -1,0 +1,63 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "JEDZENIE I PICIE",
+            "val": "JEDZENIE I PICIE"
+        },
+        {
+            "id": 2,
+            "name": "ROZRYWKA i HOBBY",
+            "val": "ROZRYWKA i HOBBY"
+        },
+        {
+            "id": 3,
+            "name": "MIESZKANIE I TELEKOMUNIKACJA",
+            "val": "MIESZKANIE I TELEKOMUNIKACJA"
+        },
+        {
+            "id": 4,
+            "name": "SPRZĘT I ELEKTRONIKA",
+            "val": "SPRZĘT I ELEKTRONIKA"
+        },
+        {
+            "id": 5,
+            "name": "SAMOCHÓD I TRANSPORT",
+            "val": "SAMOCHÓD I TRANSPORT"
+        }
+    ],
+    "people": [
+        {
+            "id": 1,
+            "label": "Wiktor",
+            "value": "W"
+        },
+        {
+            "id": 2,
+            "label": "Karolina",
+            "value": "K"
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

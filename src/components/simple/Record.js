@@ -1,19 +1,23 @@
-import React from 'react'
 
 const Record = ( { expense } ) => {
   return (
         <section className='record'>
-            <div className='val'>{expense.value + " PLN"}</div>
+            <div className='val'>{expense.bill + " PLN"}</div>
             <div className='details'>
                 <div className='row'>
                     <div className='field'>{expense.person}</div>
                     <div className='field'>{expense.account}</div>
-                    <button>delete</button>
+                    <div className='field'>
+                        <p className='category'>{expense.category}</p>
+                    </div>
                 </div>
                 <div className='row'>
-                    <p className='desc'>{expense.description}</p>
+                    <p className='desc'>
+                        {expense.description.length>50 ? expense.description.slice(0,50) + "..." : expense.description}
+                    </p>
                 </div>
             </div>
+            <button className='btn'>🆇</button>
         </section>
     )
 }

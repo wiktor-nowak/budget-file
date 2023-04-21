@@ -1,25 +1,60 @@
 {
-    "expenses": [
-        {
-            "id": 1,
-            "person": "Wiktor",
-            "account": "AliorBank",
-            "description": "The last money I have I devoted to face 45kg box of bananas from Egypt...",
-            "value": 235.85
-        },
-        {
-            "id": 2,
-            "person": "Wiktor",
-            "account": "AliorBank",
-            "description": "What for?...",
-            "value": 11.34
-        },
-        {
-            "id": 3,
-            "person": "Wiktor",
-            "account": "AliorBank",
-            "description": "",
-            "value": 100
-        }
-    ]
+  "expenses": [
+    {
+      "id": 1,
+      "person": "Wiktor",
+      "account": "AliorBank",
+      "description": "The last money I have I devoted to face 45kg box of bananas from Egypt...",
+      "category": "Food",
+      "bill": 235.85
+    },
+    {
+      "id": 2,
+      "person": "Wiktor",
+      "account": "AliorBank",
+      "description": "What for?...",
+      "category": "Other",
+      "bill": 11.34
+    },
+    {
+      "id": 3,
+      "person": "Wiktor",
+      "account": "AliorBank",
+      "description": "",
+      "category": "Transportation",
+      "bill": 100
+    },
+    {
+      "person": "wadawd",
+      "account": "awdwad",
+      "category": "Ser",
+      "bill": 522.62,
+      "description": "awdawdw",
+      "id": 4
+    },
+    {
+      "person": "",
+      "account": "MBank",
+      "category": "",
+      "bill": 55.551,
+      "description": "awdwad",
+      "id": 5
+    },
+    {
+      "person": "K",
+      "account": "waadaw",
+      "category": "MIESZKANIE I TELEKOMUNIKACJA",
+      "bill": 7775,
+      "description": "sfesf",
+      "id": 6
+    },
+    {
+      "person": "",
+      "account": "PKO",
+      "category": "",
+      "bill": 4000,
+      "description": "WHAT THE HELL?!",
+      "id": 7
+    }
+  ]
 }

@@ -1,39 +1,26 @@
 import './App.css';
-import Navigation from '../components/complex/Navigation';
-import Record from '../components/simple/Record';
-// import axios from 'axios';
-import { useState, useEffect } from 'react';
-import api from '../api/expenses';
+import Layout from '../components/complex/Layout';
+import AddExpense from './AddExpense';
+import Home from './Home';
+import Summary from './Summary';
+import NotFound from './NotFound';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
-  const [myExpenses, setMyExpenses] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await api.get('/expenses');
-        console.log(response.data);
-        setMyExpenses(response.data);
-      } catch (err) {
-        console.log(err.response.data);
-      }
-    }
-
-    fetchData();
-
-  }, [])
-
 	return (
-		<div className="App">
-			<Navigation />
-      <h1>Expenses List</h1>
-      <div className='content'>
-      {myExpenses.map(element => 
-        <Record key={element.id} expense={element}/>
-      )}
-    </div>
-		</div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path='/' element={<Layout />}>
+            <Route index element={<Home />}/>
+            <Route path='summary' element={<Summary />}/>
+            <Route path='add' element={<AddExpense />}/>
+            <Route path='*' element={<NotFound />}/>
+          </Route>
+        </Routes>
+      </div>   
+    </BrowserRouter>
 	);
 }
 
